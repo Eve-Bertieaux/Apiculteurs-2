@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Chargement des fichiers CSS Bootstrap -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=PT+Serif:ital,wght@1,700&family=Poppins:ital,wght@1,100&display=swap" rel="stylesheet"> 
+    <title>Les Butineuses</title>
+</head>
+
+
+<body>
+
+<!-- Barre de navigation Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="#accueil">
+                        <i class="fas fa-home"></i> Accueil
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nos-produits">
+                        <i class="fas fa-shopping-basket"></i> Nos Produits
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#nous-les-apiculteurs">
+                        <i class="fas fa-users"></i> Nous les Apiculteurs
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#localisation">
+                        <i class="fas fa-map-marker-alt"></i> Localisation
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#contact">
+                        <i class="fas fa-envelope"></i> Contactez-nous
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<!-- Section Header avec Bootstrap -->
+<header id="accueil" class="container-fluid p-0">
+    <img src="images/accueil.jpg" alt="Image d'accueil" class="img-fluid w-100">
+    <div class=" text-center position-absolute" style="top: 350px; left: 5%; background-color: transparent;">
+        <h1 class="display-4" style="color: #8a2be2; font-size: 65px;"><strong>Bienvenue chez les Butineuses</strong></h1>
+        <p class="lead" style="color: #8a2be2;">Qui va goûter à notre délicieux miel aujourd'hui ?</p>
+    </div>
+</header>
+
+
+<!-- Section Nos Produits -->
+<section id="nos-produits" class=" container-fluid p-5">
+    <div class="container">
+        <h2 class=" text-center" style="margin: 100px 0 100px 0;">Nos Produits</h2>
+        <div class="row">
+            <div class="col-md-4">
+                <h3 class="text-center">Nos miels</h3>               
+                <img src="images/miel.jpg" alt="Miel" class="img-fluid">
+                <a href="miels.html" class="btn btn-primary btn-block mt-3">En savoir plus</a> <!-- Lien vers une autre page -->
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Notre propolis</h3>
+                <img src="images/pollen.jpg" alt="Pollen" class="img-fluid">
+                <a href="propolis.html" class="btn btn-primary btn-block mt-3">En savoir plus</a> <!-- Lien vers une autre page -->
+            </div>
+            <div class="col-md-4">
+                <h3 class="text-center">Nos cires d'abeille</h3>
+                <img src="images/cire.jpg" alt="Cire d'Abeille" class="img-fluid">
+                <a href="cires.html" class="btn btn-primary btn-block mt-3">En savoir plus</a> <!-- Lien vers une autre page -->
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Section Nous les Apiculteurs -->
+<section id="nous-les-apiculteurs" class="container-fluid bg-light p-5">
+    <div class="container">
+        <h2 class="text-center">Nous les Apiculteurs</h2>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="d-flex flex-column align-items-center text-center">
+                    <p>"L'apiculteur passionné souhaite ardemment que ses abeilles butinent une grande diversité de plantes.</p>
+                    <p>Il travaille avec dévouement pour offrir à ses précieuses butineuses une variété infinie de fleurs et de cultures. Cette démarche est essentielle pour produire un miel riche en saveurs et en arômes.</p>
+                    <p>Il veille attentivement à ce que ses abeilles aient accès à un vaste éventail de ressources florales, garantissant ainsi la qualité exceptionnelle de son miel.</p>
+                    <p>Son engagement envers la diversité botanique contribue à préserver la santé de ses abeilles et à maintenir l'équilibre écologique dans la région où il pratique son apiculture.</p>
+                    <p>Chaque saison, il observe avec joie ses abeilles en train de butiner avec enthousiasme les plantes aussi nombreuses que variées qui les entourent."</p>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="d-flex align-items-center justify-content-center">
+                    <img src="images/apiculteur.jpg" alt="Apiculteurs" class="img-fluid mt-4">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+
+
+
+
+<!-- Section Contactez-nous -->
+<section id="contact" class="container-fluid bg-light p-5">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 offset-md-6 text-center"> <!-- Ajout de la classe text-center -->
+                <!-- Contenu de la section Contact -->
+                <h2 class="text-center" style="margin: 90px;">Contactez-nous</h2>
+                <form id="contact-form">
+        
+            <div class="form-group">
+                <label for="prenom">Prénom :</label>
+                <input type="text" class="form-control" id="prenom" name="prenom" required>
+            </div>
+            <div class="form-group">
+                <label for="nom">Nom :</label>
+                <input type="text" class="form-control" id="nom" name="nom" required>
+            </div>
+            <div class="form-group">
+                <label for="email">Adresse e-mail :</label>
+                <input type="email" class="form-control" id="email" name="email" required>
+            </div>
+            <div class="form-group">
+                <label for="telephone">Numéro de téléphone :</label>
+                <input type="tel" class="form-control" id="telephone" name="telephone" required>
+            </div>
+            <div class="form-group">
+                <label for="message">Message :</label>
+                <textarea class="form-control" id="message" name="message" rows="4"></textarea>
+            </div>
+            
+        
+            <button type="submit" class="btn btn-primary">Envoyer</button>
+                </form>
+                <div id="confirmation" class="mt-3 text-success"></div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Section Où Nous Sommes -->
+<section id="ou-nous-sommes" class="container-fluid bg-light p-5">
+    <div class="container">
+        <h2 class="text-center" style="margin-bottom: 25px;">Où sommes-nous situé ?</h2>
+        <p class="text-center">Nous sommes situés en Belgique :</p>
+        <p class="text-center">Adresse : 123 Rue des Abeilles, 1000 Bruxelles, Belgique</p>
+        <p class="text-center">Numéro de GSM : +32 123 456 789</p>
+
+        <h3>Horaires d'ouverture :</h3>
+        <table class="table">
+            <thead>
+                <tr>
+                    <th>Jour</th>
+                    <th>Heures d'ouverture</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Lundi</td>
+                    <td>9h00 - 18h00</td>
+                </tr>
+                <tr>
+                    <td>Mardi</td>
+                    <td>9h00 - 18h00</td>
+                </tr>
+                <tr>
+                    <td>Mercredi</td>
+                    <td>9h00 - 18h00</td>
+                </tr>
+                <tr>
+                    <td>Jeudi</td>
+                    <td>9h00 - 18h00</td>
+                </tr>
+                <tr>
+                    <td>Vendredi</td>
+                    <td>9h00 - 18h00</td>
+                </tr>
+                <tr>
+                    <td>Samedi</td>
+                    <td>10h00 - 15h00</td>
+                </tr>
+                <tr>
+                    <td>Dimanche</td>
+                    <td>Fermé</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+
+
+<!-- Section Localisation -->
+<section id="localisation" class="container-fluid p-5">
+    <div class="container">
+        <h2>Localisation</h2>
+        <p>Nous sommes situés en Belgique :</p>
+        
+        <!-- Intégration de la carte Google Maps -->
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d25056.127631229388!2d4.322656421193169!3d50.85033909816676!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3c3c1d13168e3%3A0xd9b71e453b50c2a0!2sBrussels%2C%20Belgium!5e0!3m2!1sen!2sus!4v1606883660136!5m2!1sen!2sus"
+            width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen=""
+            aria-hidden="false" tabindex="0"></iframe>
+    </div>
+</section>
+
+
+<!-- Pied de page -->
+<footer class="container-fluid bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Les Butineuses</p>
+</footer>
+
+<!-- Chargement des fichiers JavaScript Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>

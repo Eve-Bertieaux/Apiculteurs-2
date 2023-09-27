@@ -1,0 +1,33 @@
+/* styles personnalisés */
+.jumbotron {
+    background-image: url(images/abeillevolante.gif);
+    background-repeat: no-repeat;
+    background-size: 10%;
+    color: white;
+   
+    
+}
+
+h1{
+    font-family: 'Abril Fatface PT Serif Poppins', cursive, sans-serif, serif;
+}
+.subtitle {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+/* Couleur personnalisée pour les éléments du menu en violet (#8a2be2) */
+li {
+    color: #8a2be2;
+}
+
+#contact {
+    background: url(images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh; /* La section prendra la hauteur de la fenêtre du navigateur */
+    
+    
+}
+
+

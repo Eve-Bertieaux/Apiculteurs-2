@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Chargement des fichiers CSS Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+    <title>Les Butineuses</title>
+</head>
+
+
+<body>
+
+<!-- Barre de navigation Bootstrap -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <div class="container">
+        
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html">
+                        <i class="fas fa-home"></i> Accueil
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="miels.html">
+                        <i class="fas fa-shopping-basket"></i> Nos miels
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="propolis.html">
+                        <i class="fas fa-users"></i> La propolis
+                    </a>
+                </li>
+                
+            </ul>
+        </div>
+    </div>
+</nav>
+<!-- Section prix des produits réalisés par les Butineuses-->
+<div class="container mt-5">
+    <div class="row">
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/cire-meuble.jpg" class="card-img-top" alt="Cire pour Meubles">
+                <div class="card-body">
+                    <h5 class="card-title">Cire pour Meubles</h5>
+                    <p class="card-text">Notre cire pour meubles à base de cire d'abeille est parfaite pour entretenir et restaurer vos meubles en bois. Elle apporte une brillance naturelle tout en protégeant le bois.</p>
+                    <p class="card-text">Prix :</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">100 g - 8.99€</li>
+                        <li class="list-group-item">250 g - 18.99€</li>
+                        <li class="list-group-item">500 g - 32.99€</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/bougie1.webp" class="card-img-top" alt="Bougies">
+                <div class="card-body">
+                    <h5 class="card-title">Les bougies bougies que nous créons</h5>
+                    <p class="card-text">Nos bougies sont naturelles et parfumées avec notre cire d'abeille de qualité supérieure, faites à la main, elles offrent une combustion propre et une ambiance chaleureuse.</p>
+                    <p class="card-text">Prix :</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">1 bougie - 10.00€</li>
+                        <li class="list-group-item">2 bougies - 18.00€</li>
+                        <li class="list-group-item">3 bougies - 25.00€</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-4">
+            <div class="card">
+                <img src="images/creme-hydratante.jpeg" class="card-img-top" alt="Soins de la Peau">
+                <div class="card-body">
+                    <h5 class="card-title">Soins de la Peau à la Cire d'Abeille</h5>
+                    <p class="card-text">Prenez soin de votre peau avec nos produits à base de cire d'abeille. Notre crème hydratante et notre baume à lèvres nourrissent et protègent votre peau des éléments.</p>
+                    <p class="card-text">Prix :</p>
+                    <ul class="list-group list-group-flush">
+                        <li class="list-group-item">Crème Hydratante (50 ml) - 12.99€</li>
+                        <li class="list-group-item">Crème Hydratante (100 ml) - 24.99€</li>
+                        <li class="list-group-item">Baume à Lèvres (10 g) - 4.99€</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--Achat de bougies et prix-->
+<h3 class="mt-4 text-center">Envie de cire d’abeille ?</h3>
+        
+        <p class="text-center">Notre cire est disponible sous forme de pains de 30 grammes, vous permettant de donner libre cours à votre créativité.</p>
+        
+
+        <!-- Image pour les lieux d'achat -->
+        <div class="text-center">
+            <img src="images/cire.jpg" alt="Lieux d'achat de cire d'abeille" width="300px">
+        </div>
+
+        <!-- Prix pour les produits -->
+        <div class="mt-4 text-center">
+            <label for="bougies">Nos pains de cire :</label>
+            <select id="bougies">
+                <option value="1">1 pain - Prix : 3.00€</option>
+                <option value="2">2 pains - Prix : 5.00€</option>
+                <option value="3">3 pains - Prix : 7.00€</option>
+                <!-- Ajoutez plus d'options ici si nécessaire -->
+            </select>
+        </div>
+
+<!-- Section sur la Cire d'Abeille -->
+<section id="cire-dabeille" class="container-fluid p-5">
+    <div class="container">
+        <h2 class="text-center">Qu’est-ce que la cire d’abeille ?</h2>
+        <p>Fascinantes petites bêtes que sont les abeilles. Dès leur 12ᵉ jour de vie, les « maçonnes » s’affairent pour construire la ruche. Pour cela, elles sécrètent au niveau de l’abdomen d’infimes écailles de cire qu’elles vont mélanger à leurs sécrétions salivaires jusqu’à obtenir leur fameuse cire.</p>
+        <p>Toujours en rangs serrés, la chaleur qu’elles dégagent monte la température de la cire jusqu'à lui procurer une grande malléabilité. C'est ainsi qu'elles parviennent à cet incroyable amoncellement d’hexagones parfaitement géométriques. Une fois construites, les alvéoles tiennent le rôle d'armoire de stockage pour le pollen, les œufs et bien évidemment, l’excellent miel.</p>
+        <p>Au moment de la récolte, les apiculteurs prélèvent une certaine quantité de cire à différents endroits de la ruche. Une fois débarrassée des impuretés, une partie sera redonnée aux abeilles sous forme de fondation de leurs futurs rayons. C’est le cercle vertueux du gagnant / gagnant.</p>
+
+        
+
+        
+
+        <h3 class="mt-4">Les différents types de cire</h3>
+        <p>Il existe principalement deux types de cire :</p>
+        <ul>
+            <li>La cire jaune : la plus pure et la plus naturelle, c'est elle que l’on obtient à l’issue du processus d’extraction. Elle est dite non raffinée, c’est-à-dire sans traitement blanchissant. Selon la région et le pollen butiné, elle peut parfois arborer une couleur jaune foncé, ambrée, voire brune. Cela n’affecte en rien sa qualité et indique seulement la présence de résidus de propolis, de pollen et de miel.</li>
+            <li>La cire blanche : c’est initialement de la cire jaune, autrement dit brute, mais elle aura subi une multitude de procédés et de traitements pour la filtrer, la blanchir et la désodoriser. On se tournera davantage sur ce type de cire pour un emploi ménager ou d’entretien.</li>
+        </ul>
+
+        <!-- Image pour les types de cire -->
+        <div class="text-center">
+            <img src="images/cire.jpg" alt="Types de cire" width="300px">
+        </div>
+
+        
+    </div>
+</section>
+
+<section id="cire-dabeille" class="container-fluid p-5">
+    <div class="container">
+        <h3 class="mt-4 text-center" style="margin: 40px;">Que faire avec de la cire d'abeille ?</h3>
+<!-- Liste des utilisations -->
+<div class="row">
+    <div class="col-md-6">
+        <h3 class="text-center">Entretenir les meubles</h3>
+        <h4>Lustrer et entretenir les meubles : </h4><p>Pour obtenir une bonne quantité, faites fondre délicatement au bain-marie 100 g de cire d’abeille, 100 g de térébenthine et 100g d’huile d’olive ou de lin. Si le cœur vous en dit, vous pouvez rajouter quelques gouttes de jus de citron pour rajouter de la brillance.</p>
+        <p>Après avoir dépoussiéré meubles et parquets, appliquez généreusement votre préparation à l’aide d’un linge en microfibre. Suivez le sens des veines du bois. Laissez agir plusieurs heures avant de lustrer l’ensemble à l’aide d’un chiffon doux.</p>
+    </div>
+    <div class="col-md-6 text-center">
+        <img src="images/cire-meuble.jpg" alt="Entretien des meubles avec de la cire d'abeille" width="300px">
+    </div>
+</div>
+</section>
+
+<section>
+<div class="row">
+    <div class="col-md-6">
+    <h3>Faire des bougies</h3>
+    <h4>Faire des bougies à la cire d'abeille : </h4><p>Si vous aimez les ambiances tamisées que procurent les bougies, mais que vous redoutez les substances chimiques qui se dégagent de la plupart d’entre elles, craquez alors pour les bougies home-made à la cire d’abeille.</p>
+    <h5>Pour cela :</h5>
+    <ol>
+        <li>Faites fondre délicatement de la cire jaune au bain-marie.</li>
+        <li>Enduisez-y une mèche de coton afin de lui donner la rigidité souhaitée.</li>
+        <li>Enroulez la mèche sur le centre d’un cure-dent que vous viendrez poser sur le haut de votre moule (le reste de la mèche doit toucher le fond du moule).</li>
+        <li>Remplissez de cire.</li>
+        <li>Laissez durcir et coupez le surplus de mèche.</li>
+    </ol>
+    <p>Vous obtenez une jolie bougie jaune à la délicate senteur d’antan.</p>
+    </div>
+
+    <!-- Image pour la fabrication de bougies -->
+    <div class="col-md-6 text-center">
+        <img src="images/bougie2.jpeg" alt="Fabrication de bougies en cire d'abeille" width="300px">
+    </div>
+</div>
+</section>
+
+    <h3>Nourrir la peau</h3>
+    <p>Ingrédients :</p>
+    <ul>
+        <li>10 g de cire d’abeille jaune en pastilles.</li>
+        <li>70 ml d’huile végétale bio de votre choix (argan, coco, olive, noisettes…).</li>
+        <li>30 ml de gel d’aloé vera.</li>
+        <li>50 ml d’un mélange d’eau et d’eau de fleur d’oranger.</li>
+        <li>Quelques gouttes d’huile essentielle d’orange douce et 3 gouttes de vitamines E (optionnel).</li>
+    </ul>
+    <p>Faites fondre à feu doux au bain-marie la cire mélangée à l’huile. Une fois une bonne homogénéité obtenue, transvasez dans un saladier froid puis ajoutez l’aloé vera et le mélange eau / eau de fleur d’oranger. Mélangez au fouet ou au batteur électrique (vitesse 1) jusqu’à ce que l’émulsion prenne et que votre crème épaississe (telle une bonne mayonnaise). Ajoutez l’huile essentielle et 3 gouttes de vitamine E pour la conservation. Remplissez un pot en verre stérilisé et fermez hermétiquement.</p>
+    <p>Il ne reste plus qu’à appliquer cette préparation le matin avant d’affronter le froid, et le soir pour aider la peau à se régénérer durant le sommeil.</p>
+
+    <!-- Image pour la préparation de crème pour la peau -->
+    <div class="text-center">
+        <img src="images/creme-hydratante.jpeg" alt="Préparation de crème pour la peau à la cire d'abeille" width="300px">
+    </div>
+
+    <h3>Hydrater et protéger les lèvres</h3>
+    <p>Vos lèvres sont gercées et inconfortables ? Pour y remédier, vous pouvez utiliser tout simplement la précédente recette de crème à la cire pour le corps et l’appliquer sur vos lèvres en massant légèrement.</p>
+    <p>Pour les adeptes du minimalisme, mélangez 15 ml d’huile végétale de votre choix avec 10 g de cire fondue. </p>
+    <p> Déposez l’ensemble homogène dans un petit pot pour baume à lèvres. Dès que le durcissement est obtenu, le baume est prêt à l’emploi. Il se conserve plusieurs mois avec une goutte de vitamine E.</p>
+</div>
+    <!-- Image pour le baume à lèvres -->
+    <div class="text-center">
+        <img src="images/baume-levres.webp" alt="Baume à lèvres à base de cire d'abeille" width="300px">
+    </div>
+    <!-- Ajoutez plus d'utilisations ici si nécessaire -->
+
+
+
+
+
+
+<!-- Pied de page -->
+<footer class="container-fluid bg-dark text-white text-center py-3">
+    <p>&copy; 2023 Les Butineuses</p>
+</footer>
+
+<!-- Chargement des fichiers JavaScript Bootstrap -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+
+
+</body>
+</html>
